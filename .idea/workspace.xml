@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1759067-84bb-4234-9c39-fa197b2985d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/easy/14-longest-common-prefix/14-longest-common-prefix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/easy/20-valid-parentheses/20-valid-parentheses.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
