@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func isValid(s string) bool {
 	// map for bracket's pair
