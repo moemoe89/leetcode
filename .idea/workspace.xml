@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1759067-84bb-4234-9c39-fa197b2985d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/easy/344-reverse-string/344-reverse-string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/easy/118-pascal's-triangle/118-pascal's-triangle.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
