@@ -31,7 +31,7 @@ func isValid(s string) bool {
 			if m[stack[lastIdx]] != bracket {
 				return false
 			} else {
-				stack = append(stack[:lastIdx], stack[lastIdx+1:]...)
+				stack = stack[:lastIdx]
 			}
 		}
 	}
