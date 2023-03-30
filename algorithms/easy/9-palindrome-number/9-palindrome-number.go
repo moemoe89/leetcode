@@ -42,25 +42,25 @@ func isPalindrome(x int) bool {
 
 	// copy the input value to original variable
 	original := x
-	// prepare the reserve variable
-	reserve := 0
+	// prepare the reverse variable
+	reverse := 0
 
 	// do loop until x is 0
 	for x != 0 {
-		// reserve the input digit by digit from backward
+		// reverse the input digit by digit from backward
 		// for the example input 123
-		// first  -> reserve*10 : 0,   x%10 : 3, reserve : 3,   x divide 10 : 12
-		// second -> reserve*10 : 30,  x%10 : 2, reserve : 32,  x divide 10 : 1
-		// third  -> reserve*10 : 320, x%10 : 1, reserve : 321, x divide 10 : 0
+		// first  -> reverse*10 : 0,   x%10 : 3, reverse : 3,   x divide 10 : 12
+		// second -> reverse*10 : 30,  x%10 : 2, reverse : 32,  x divide 10 : 1
+		// third  -> reverse*10 : 320, x%10 : 1, reverse : 321, x divide 10 : 0
 		// break the loop since x = 0
-		reserve = reserve*10 + x%10
+		reverse = reverse*10 + x%10
 
 		// divide x by 10
 		x /= 10
 	}
 
-	// check if original and reserve is same number
-	return original == reserve
+	// check if original and reverse is same number
+	return original == reverse
 }
 
 func main() {
